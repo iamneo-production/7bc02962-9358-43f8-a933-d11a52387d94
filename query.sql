@@ -1,0 +1,1 @@
+select state,count(*) as TotalCount from blood_bank group by state;
