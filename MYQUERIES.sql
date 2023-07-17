@@ -12,3 +12,6 @@ select count(*) as totalcount from blood_bank;
 set timing on;
 --create index indname on blood_bank('Blood Bank Name');
 select "Blood Bank Name" from blood_bank order by "Blood Bank Name"fetch first 5 rows only;
+--5th query
+set timing on;
+select "Blood Bank Name" from blood_bank order by "Blood Bank Name";
