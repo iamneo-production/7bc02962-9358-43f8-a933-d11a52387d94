@@ -1,4 +1,3 @@
-
 -- Q1. Write a SQL Query to find the total count of blood banks in each state?
 
 SET TIMING ON;
