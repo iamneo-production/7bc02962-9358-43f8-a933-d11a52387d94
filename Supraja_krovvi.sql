@@ -14,11 +14,14 @@ Where STATE = 'Andhra Pradesh';
 --query 3
 Set timing on;
 Select count(*) as totalbloodbanks from blood_bank;
+
 --query 4
 Set timing on;
 --Create index indexname on blood_bank('Blood Bank Name');
 Select "Blood Bank Name" from blood_bank order by "Blood Bank Name" asc 
 Fetch first 5 rows only;
+
 --query 5
+
 Set timing on;
 Select "Blood Bank Name" from blood_bank order by "Blood Bank Name" asc;
