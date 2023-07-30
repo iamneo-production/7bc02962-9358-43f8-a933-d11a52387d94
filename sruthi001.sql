@@ -1,6 +1,5 @@
 --  query 1
 
-
 SELECT STATE, count(*) AS Total_Blood_Banks_Count FROM BLOOD_BANK
 GROUP BY State;
 
