@@ -5,7 +5,6 @@ Set timing on;
 SELECT STATE, COUNT(*) AS Total_Blood_Banks_Count FROM BLOOD_BANK
 GROUP BY State;
 
-
 -- Q2. Write a SQL Query to List out the blood banks in Andhra Pradhes State?
 
 Set timing on;
