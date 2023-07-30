@@ -1,6 +1,5 @@
 --query-1
 Set timing on;
-
 SELECT STATE, COUNT(*) AS Total_Blood_banks_count FROM BLOOD_BANK
 Group By State;
 
